@@ -7,23 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019F95101C984EF400E2A405 /* YTVimeoVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 019F950F1C984EF400E2A405 /* YTVimeoVideo+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		015B7E012750B2D800168226 /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 015B7DFF2750B2D800168226 /* Tests */; };
+		015B7E022750B2D800168226 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 015B7E002750B2D800168226 /* Sources */; };
 		01AC343A1C1F21290015CAA6 /* YTVimeoExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AC342F1C1F21280015CAA6 /* YTVimeoExtractor.framework */; };
-		01AC34521C1F21750015CAA6 /* YTVimeoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34491C1F21750015CAA6 /* YTVimeoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01AC34531C1F21750015CAA6 /* YTVimeoExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344A1C1F21750015CAA6 /* YTVimeoExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01AC34541C1F21750015CAA6 /* YTVimeoExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344B1C1F21750015CAA6 /* YTVimeoExtractor.m */; };
-		01AC34551C1F21750015CAA6 /* YTVimeoExtractorOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344C1C1F21750015CAA6 /* YTVimeoExtractorOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01AC34561C1F21750015CAA6 /* YTVimeoExtractorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344D1C1F21750015CAA6 /* YTVimeoExtractorOperation.m */; };
-		01AC34571C1F21750015CAA6 /* YTVimeoURLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344E1C1F21750015CAA6 /* YTVimeoURLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01AC34581C1F21750015CAA6 /* YTVimeoURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344F1C1F21750015CAA6 /* YTVimeoURLParser.m */; };
-		01AC34591C1F21750015CAA6 /* YTVimeoVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34501C1F21750015CAA6 /* YTVimeoVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01AC345A1C1F21750015CAA6 /* YTVimeoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC34511C1F21750015CAA6 /* YTVimeoVideo.m */; };
-		01AC345F1C1F21ED0015CAA6 /* YTVimeoExtractorOperationTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC345B1C1F21ED0015CAA6 /* YTVimeoExtractorOperationTestCase.m */; };
-		01AC34601C1F21ED0015CAA6 /* YTVimeoExtractorTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC345C1C1F21ED0015CAA6 /* YTVimeoExtractorTestCase.m */; };
-		01AC34611C1F21ED0015CAA6 /* YTVimeoURLParserTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC345D1C1F21ED0015CAA6 /* YTVimeoURLParserTestCase.m */; };
-		01AC34621C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC345E1C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m */; };
-		01AC34641C1F21F70015CAA6 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 01AC34631C1F21F70015CAA6 /* testdata.json */; };
-		01AC34661C1F22980015CAA6 /* testdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01AC34651C1F22980015CAA6 /* testdata.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,30 +23,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019F950F1C984EF400E2A405 /* YTVimeoVideo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YTVimeoVideo+Private.h"; sourceTree = "<group>"; };
+		015B7DFF2750B2D800168226 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		015B7E002750B2D800168226 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		01AC342F1C1F21280015CAA6 /* YTVimeoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTVimeoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01AC34341C1F21290015CAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AC34391C1F21290015CAA6 /* YTVimeoExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTVimeoExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01AC34401C1F21290015CAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01AC34491C1F21750015CAA6 /* YTVimeoError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoError.h; sourceTree = "<group>"; };
-		01AC344A1C1F21750015CAA6 /* YTVimeoExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoExtractor.h; sourceTree = "<group>"; };
-		01AC344B1C1F21750015CAA6 /* YTVimeoExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoExtractor.m; sourceTree = "<group>"; };
-		01AC344C1C1F21750015CAA6 /* YTVimeoExtractorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoExtractorOperation.h; sourceTree = "<group>"; };
-		01AC344D1C1F21750015CAA6 /* YTVimeoExtractorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoExtractorOperation.m; sourceTree = "<group>"; };
-		01AC344E1C1F21750015CAA6 /* YTVimeoURLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoURLParser.h; sourceTree = "<group>"; };
-		01AC344F1C1F21750015CAA6 /* YTVimeoURLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoURLParser.m; sourceTree = "<group>"; };
-		01AC34501C1F21750015CAA6 /* YTVimeoVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVimeoVideo.h; sourceTree = "<group>"; };
-		01AC34511C1F21750015CAA6 /* YTVimeoVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoVideo.m; sourceTree = "<group>"; };
-		01AC345B1C1F21ED0015CAA6 /* YTVimeoExtractorOperationTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoExtractorOperationTestCase.m; sourceTree = "<group>"; };
-		01AC345C1C1F21ED0015CAA6 /* YTVimeoExtractorTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoExtractorTestCase.m; sourceTree = "<group>"; };
-		01AC345D1C1F21ED0015CAA6 /* YTVimeoURLParserTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoURLParserTestCase.m; sourceTree = "<group>"; };
-		01AC345E1C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoVideoTestCase.m; sourceTree = "<group>"; };
-		01AC34631C1F21F70015CAA6 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
-		01AC34651C1F22980015CAA6 /* testdata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = testdata.plist; sourceTree = "<group>"; };
-		AC0B40751DF50E48000723B6 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		AC5730171DF48EBC006C5B33 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "YTVimeoExtractor/Info-iOS.plist"; sourceTree = SOURCE_ROOT; };
-		AC98CDA81DF6398500400763 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		AC98CDB91DF63A1800400763 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +51,8 @@
 		01AC34251C1F21280015CAA6 = {
 			isa = PBXGroup;
 			children = (
-				01AC34311C1F21280015CAA6 /* YTVimeoExtractor */,
-				01AC343D1C1F21290015CAA6 /* YTVimeoExtractorTests */,
+				015B7E002750B2D800168226 /* Sources */,
+				015B7DFF2750B2D800168226 /* Tests */,
 				01AC34301C1F21280015CAA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,42 +66,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01AC34311C1F21280015CAA6 /* YTVimeoExtractor */ = {
-			isa = PBXGroup;
-			children = (
-				01AC34491C1F21750015CAA6 /* YTVimeoError.h */,
-				01AC344A1C1F21750015CAA6 /* YTVimeoExtractor.h */,
-				01AC344B1C1F21750015CAA6 /* YTVimeoExtractor.m */,
-				01AC344C1C1F21750015CAA6 /* YTVimeoExtractorOperation.h */,
-				01AC344D1C1F21750015CAA6 /* YTVimeoExtractorOperation.m */,
-				01AC344E1C1F21750015CAA6 /* YTVimeoURLParser.h */,
-				01AC344F1C1F21750015CAA6 /* YTVimeoURLParser.m */,
-				01AC34501C1F21750015CAA6 /* YTVimeoVideo.h */,
-				01AC34511C1F21750015CAA6 /* YTVimeoVideo.m */,
-				019F950F1C984EF400E2A405 /* YTVimeoVideo+Private.h */,
-				01AC34341C1F21290015CAA6 /* Info.plist */,
-				AC5730171DF48EBC006C5B33 /* Info-iOS.plist */,
-				AC0B40751DF50E48000723B6 /* Info-tvOS.plist */,
-			);
-			path = YTVimeoExtractor;
-			sourceTree = "<group>";
-		};
-		01AC343D1C1F21290015CAA6 /* YTVimeoExtractorTests */ = {
-			isa = PBXGroup;
-			children = (
-				01AC34631C1F21F70015CAA6 /* testdata.json */,
-				01AC34651C1F22980015CAA6 /* testdata.plist */,
-				01AC345B1C1F21ED0015CAA6 /* YTVimeoExtractorOperationTestCase.m */,
-				01AC345C1C1F21ED0015CAA6 /* YTVimeoExtractorTestCase.m */,
-				01AC345D1C1F21ED0015CAA6 /* YTVimeoURLParserTestCase.m */,
-				01AC345E1C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m */,
-				01AC34401C1F21290015CAA6 /* Info.plist */,
-				AC98CDA81DF6398500400763 /* Info-iOS.plist */,
-				AC98CDB91DF63A1800400763 /* Info-tvOS.plist */,
-			);
-			path = YTVimeoExtractorTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,12 +73,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AC34521C1F21750015CAA6 /* YTVimeoError.h in Headers */,
-				01AC34571C1F21750015CAA6 /* YTVimeoURLParser.h in Headers */,
-				01AC34531C1F21750015CAA6 /* YTVimeoExtractor.h in Headers */,
-				01AC34551C1F21750015CAA6 /* YTVimeoExtractorOperation.h in Headers */,
-				019F95101C984EF400E2A405 /* YTVimeoVideo+Private.h in Headers */,
-				01AC34591C1F21750015CAA6 /* YTVimeoVideo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 01AC34251C1F21280015CAA6;
@@ -232,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015B7E012750B2D800168226 /* Tests in Resources */,
+				015B7E022750B2D800168226 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AC34661C1F22980015CAA6 /* testdata.plist in Resources */,
-				01AC34641C1F21F70015CAA6 /* testdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +176,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AC34581C1F21750015CAA6 /* YTVimeoURLParser.m in Sources */,
-				01AC345A1C1F21750015CAA6 /* YTVimeoVideo.m in Sources */,
-				01AC34561C1F21750015CAA6 /* YTVimeoExtractorOperation.m in Sources */,
-				01AC34541C1F21750015CAA6 /* YTVimeoExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +183,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AC34601C1F21ED0015CAA6 /* YTVimeoExtractorTestCase.m in Sources */,
-				01AC34621C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m in Sources */,
-				01AC34611C1F21ED0015CAA6 /* YTVimeoURLParserTestCase.m in Sources */,
-				01AC345F1C1F21ED0015CAA6 /* YTVimeoExtractorOperationTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
