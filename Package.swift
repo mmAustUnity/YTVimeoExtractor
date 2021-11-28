@@ -20,11 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "YTVimeoExtractor",
-            resources: [
-                .copy("Info.plist"),
-                .copy("Info-iOS.plist"),
-                .copy("Info-tvOS.plist")
-            ]
+            dependencies: []
         ),
         .testTarget(
             name: "YTVimeoExtractorTests",
