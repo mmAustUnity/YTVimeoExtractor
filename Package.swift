@@ -24,8 +24,8 @@ let package = Package(
                 .copy("Sources/YTVimeoExtractor/Info.plist"),
                 .copy("Sources/YTVimeoExtractor/Info-iOS.plist"),
                 .copy("Sources/YTVimeoExtractor/Info-tvOS.plist")
-            ],
-            dependencies: []),
+            ]
+        ),
         .testTarget(
             name: "YTVimeoExtractorTests",
             dependencies: ["YTVimeoExtractor"]),
