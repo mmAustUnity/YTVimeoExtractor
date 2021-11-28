@@ -22,7 +22,7 @@ let package = Package(
             name: "YTVimeoExtractor",
             resources: [
                 .copy("Sources/YTVimeoExtractor/Info.plist"),
-                .copy("Sources/YTVimeoExtractor/Info-iOS.plist")
+                .copy("Sources/YTVimeoExtractor/Info-iOS.plist"),
                 .copy("Sources/YTVimeoExtractor/Info-tvOS.plist")
             ]
             dependencies: []),
