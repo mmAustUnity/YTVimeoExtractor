@@ -21,9 +21,9 @@ let package = Package(
         .target(
             name: "YTVimeoExtractor",
             resources: [
-                .copy("Sources/YTVimeoExtractor/Info.plist"),
-                .copy("Sources/YTVimeoExtractor/Info-iOS.plist"),
-                .copy("Sources/YTVimeoExtractor/Info-tvOS.plist")
+                .copy("Info.plist"),
+                .copy("Info-iOS.plist"),
+                .copy("Info-tvOS.plist")
             ]
         ),
         .testTarget(
