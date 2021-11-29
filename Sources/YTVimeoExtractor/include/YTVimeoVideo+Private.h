@@ -1,1 +1,1 @@
-YTVimeoExtractor/YTVimeoVideo+Private.h
+YTVimeoVideo+Private.h

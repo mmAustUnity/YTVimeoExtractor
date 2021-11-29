@@ -1,1 +1,1 @@
-YTVimeoExtractor/YTVimeoError.h
+YTVimeoError.h
